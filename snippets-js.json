@@ -1,0 +1,32 @@
+{
+	"Discord.js Bot": {
+		"prefix": "djs",
+		"body": [
+			"const Discord = require('discord.js');",
+			"const client = new Discord.Client();",
+			"",
+			"client.once('ready', () => console.log('Bot is online!'));",
+			"",
+			"client.on('error', console.error);",
+			"client.on('warn', console.warn);",
+			"",
+			"client.login('DISCORD_TOKEN');"
+		],
+		"description": "Creates basic Discord.js bot structure"
+	},
+	"Eris Bot": {
+		"prefix": "eris",
+		"body": [
+			"const Eris = require('eris');",
+			"const client = new Eris('DISCORD_TOKEN');",
+			"",
+			"client.once('ready', () => console.log('Bot is online!'));",
+			"",
+			"client.on('error', (error, id) => console.error(`[Shard: \\${id}] \\${error}`));",
+			"client.on('warn', (msg, id) => console.warn(`[Shard: \\${id}] \\${msg}`));",
+			"",
+			"client.connect();"
+		],
+		"description": "Creates basic Eris bot structure"
+	}
+}

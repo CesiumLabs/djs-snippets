@@ -1,0 +1,41 @@
+{
+  "name": "djs-snippets",
+
+  "version": "1.0.1",
+  "description": "Discord.js, Discord.py & Eris snippets for vscode.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevSnowflake/djs-snippets.git"
+  },
+  "keywords": [
+    "discord.js",
+    "snippet",
+    "djs-snippets",
+    "discord.js-emmet"
+  ],
+  "publisher": "Snowflake107",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets-js.json"
+      },
+      {
+        "language": "python",
+        "path": "./snippets-py.json"
+      }
+    ]
+  },
+  "icon": "assets/clyde.png",
+  "galleryBanner": {
+    "color": "#7289da",
+    "theme": "dark"
+  }
+}
