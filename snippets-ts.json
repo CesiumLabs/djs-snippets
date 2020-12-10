@@ -2,8 +2,8 @@
 	"Discord.js Bot": {
 		"prefix": "djs",
 		"body": [
-			"const Discord = require('discord.js');",
-			"const client = new Discord.Client();",
+			"import { Client } = from 'discord.js';",
+			"const client = new Client();",
 			"",
 			"client.once('ready', () => console.log('Bot is online!'));",
 			"",
@@ -17,7 +17,7 @@
 	"Eris Bot": {
 		"prefix": "eris",
 		"body": [
-			"const Eris = require('eris');",
+			"import Eris = from 'eris';",
 			"const client = new Eris('DISCORD_TOKEN');",
 			"",
 			"client.once('ready', () => console.log('Bot is online!'));",

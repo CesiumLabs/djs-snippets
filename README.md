@@ -1,10 +1,11 @@
 # DJS Snippets
-Discord.js, Discord.py & Eris snippets for vscode.
+Discord bot snippets for vscode.
 
 # Available Snippets
-- `djs`: Discord.js
-- `eris`: Eris
-- `dpy`: discord.py
+- `djs`: Discord.js (JavaScript/TypeScript)
+- `eris`: Eris (JavaScript/TypeScript)
+- `dpy`: discord.py (Python)
+- `harmony`: harmony (JavaScript/TypeScript)
 
 # Preview
 ![preview](https://media1.giphy.com/media/UWJN8fUBibtcUrV0fy/giphy.gif)

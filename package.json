@@ -1,11 +1,13 @@
 {
   "name": "djs-snippets",
-
-  "version": "1.0.1",
-  "description": "Discord.js, Discord.py & Eris snippets for vscode.",
+  "version": "1.0.2",
+  "description": "Discord bot snippets for vscode.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DevSnowflake/djs-snippets.git"
+  },
+  "scripts": {
+    "build": "vsce package -o build"
   },
   "keywords": [
     "discord.js",
@@ -30,6 +32,10 @@
       {
         "language": "python",
         "path": "./snippets-py.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets-ts.json"
       }
     ]
   },
